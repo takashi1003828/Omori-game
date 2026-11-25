@@ -4,7 +4,6 @@ public class PlayerInputReader : MonoBehaviour
 {
     private const string _horizontal = "Horizontal";
     private const string _vertical = "Vertical";
-
     private const string _mouseXAxis = "Mouse X";
     private const string _mouseYAxis = "Mouse Y";
     
@@ -15,10 +14,17 @@ public class PlayerInputReader : MonoBehaviour
         Vector2 moveInput = new Vector2(x, z);
         return moveInput;
     }
-
+    public bool CheckJumpPressed()
+    {
+        return Input.GetKeyDown(KeyCode.Space);
+    }
     public bool CheckWeightButtonPressed()
     {
         return Input.GetMouseButtonDown(0);
+    }
+    public bool IsReelButtonHeld()
+    {
+        return Input.GetMouseButton(1);
     }
     public Vector2 GetCameraMoveInput()
     {   
@@ -28,10 +34,10 @@ public class PlayerInputReader : MonoBehaviour
     }
     public bool CheckHeavyButtonPressed()
     {
-        return Input.GetKeyDown(KeyCode.R);
+        return Input.GetKeyDown(KeyCode.E);
     }
     public bool ChackLightButtonPressed()
     {
-        return Input.GetKeyDown(KeyCode.E);
+        return Input.GetKeyDown(KeyCode.Q);
     }
 }
