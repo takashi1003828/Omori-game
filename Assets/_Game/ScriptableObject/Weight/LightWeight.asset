@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: LightWeight
   m_EditorClassIdentifier: Assembly-CSharp::WeightDataSO
   _weightLevel: 0
-  _mass: 0
-  _throwForce: 0
-  _maxChainLength: 0
+  _mass: 1
+  _throwForce: 15
+  _maxChainLength: 16
   _playerPullRatio: 0
-  _canHold: 0
+  _canHold: 1

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc05bf4e25d14e70a8cb5337c607b26, type: 3}
   m_Name: MidiumWeight
   m_EditorClassIdentifier: Assembly-CSharp::WeightDataSO
-  _weightLevel: 0
-  _mass: 0
-  _throwForce: 0
-  _maxChainLength: 0
-  _playerPullRatio: 0
-  _canHold: 0
+  _weightLevel: 1
+  _mass: 3
+  _throwForce: 18
+  _maxChainLength: 10
+  _playerPullRatio: 0.1
+  _canHold: 1

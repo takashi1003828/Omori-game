@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f29fc2a454ad4c5fb8cea92d4acffb4, type: 3}
   m_Name: WeightDataSet
   m_EditorClassIdentifier: Assembly-CSharp::WeightSetSO
-  _weightDataList: []
+  _weightDataList:
+  - {fileID: 11400000, guid: 19561180eba9641de821f985d507074f, type: 2}
+  - {fileID: 11400000, guid: 4eb8c70ff4ae24d72a7b958b609aba9c, type: 2}
+  - {fileID: 11400000, guid: 2f48974df34f840fc94f0060e652c608, type: 2}
